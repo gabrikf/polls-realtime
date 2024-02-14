@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/gabrikf/.nvm/versions/node/v16.15.1/bin/node /Users/gabrikf/.npm-global/bin/yarn add typescrip @types/node -D
+
+PATH: 
+  /Users/gabrikf/.nvm/versions/node/v16.15.1/bin:/opt/local/bin:/opt/local/sbin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/usr/local/share/dotnet:~/.dotnet/tools:/usr/local/go/bin:/Users/gabrikf/.npm-global/bin:/Users/gabrikf/.fig/bin:/Users/gabrikf/.local/bin:/Library/Frameworks/Mono.framework/Versions/Current/bin
+
+Yarn version: 
+  1.22.11
+
+Node version: 
+  16.15.1
+
+Platform: 
+  darwin arm64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/typescrip: Not found
+      at Request.params.callback [as _callback] (/Users/gabrikf/.npm-global/lib/node_modules/yarn/lib/cli.js:66992:18)
+      at Request.self.callback (/Users/gabrikf/.npm-global/lib/node_modules/yarn/lib/cli.js:140763:22)
+      at Request.emit (node:events:527:28)
+      at Request.<anonymous> (/Users/gabrikf/.npm-global/lib/node_modules/yarn/lib/cli.js:141735:10)
+      at Request.emit (node:events:527:28)
+      at IncomingMessage.<anonymous> (/Users/gabrikf/.npm-global/lib/node_modules/yarn/lib/cli.js:141657:12)
+      at Object.onceWrapper (node:events:641:28)
+      at IncomingMessage.emit (node:events:539:35)
+      at endReadableNT (node:internal/streams/readable:1345:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "name": "polls-ignite",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
