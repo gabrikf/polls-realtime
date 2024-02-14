@@ -25,7 +25,7 @@ Make sure you have Node.js and npm (Node Package Manager) or Yarn installed on y
 1. Clone the repository to your local machine:
 
    ```bash
-  git clone https://github.com/gabrikf/polls-realtime.git
+   git clone https://github.com/gabrikf/polls-realtime.git
 
    ```
 
